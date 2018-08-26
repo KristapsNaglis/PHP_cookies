@@ -1,0 +1,141 @@
+html , body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+
+    font-size: 65.2%;
+
+    color: white;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    background: url("../images/bg.png") no-repeat center;
+    background-size: cover;
+}
+
+.containerGrid {
+    width: 30vw;
+    height: 30vh;
+
+    padding-left: 65vw;
+    padding-top: 60vh;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+
+    align-items: center;
+    justify-items: end;
+
+    font-size: 4em;
+}
+
+.left {
+    width: 15vw;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.countrySelection {
+    width: 8em;
+    height: 2.5em;
+
+    font-family: "Futura BQ";
+    font-size: .6em;
+
+    float: right;
+    border: none;
+    background-color: #00a2ff;
+    color: white;
+}
+
+.countrySelection:hover {
+    cursor: pointer;
+}
+
+.countLabel {
+    float: left;
+}
+
+.langLabel {
+    float: left;
+
+}
+
+.languageSelection {
+    width: 8em;
+    height: 2.5em;
+
+    font-family: "Futura BQ";
+    font-size: .6em;
+
+    float: right;
+    border: none;
+    background-color: #00a2ff;
+    color: white;
+}
+
+.languageSelection:hover {
+    cursor: pointer;
+}
+
+.right {
+    justify-self: start;
+}
+
+.buttonSubmit {
+    width: 4em;
+    height: 2em;
+
+    font-family: "Futura BQ";
+    font-size: 1.5em;
+
+    border: none;
+    background-color: transparent;
+    color: white;
+
+    transition:  .25s ease-in-out;
+}
+
+.buttonSubmit:hover {
+    color: #e67ed4;
+    transition: .25s ease-in-out;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100vw;
+    height: 10vh;
+
+    text-align: center;
+    line-height: 16vh;
+
+    font-size: 3em;
+}
+
+.footer a:link {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+
+    transition: .25s ease-in-out;
+}
+
+.footer a:visited {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+
+    transition: .25s ease-in-out;
+}
+
+.footer a:hover {
+    color: white;
+    transition: .25s ease-in-out;
+}
