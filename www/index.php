@@ -66,12 +66,12 @@ if (isset($_GET['language'])) {
                             <option value="latvian" <?php if ($language == "latvian") echo "selected" ?>>latvian</option>
                             <option value="english" <?php if ($language == "english") echo "selected" ?>>english</option>
                             <option value="german" <?php if ($language == "german") echo "selected" ?>>german</option>
-                        </select>
-                    </div>
+                    </select>
+                </div>
                 </div>
             </div>
             <div class="right">
-                <button class="buttonSubmit" type="submit">Submit</button>
+                <button class="buttonSubmit" type="submit">Submit</button>0
             </div>
         </div>
 
